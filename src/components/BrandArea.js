@@ -10,40 +10,40 @@ class BrandArea extends Component {
     render() {
         return (
             <div className="brand-area pt-60 pb-60 brand-area-style">
-                <div class="container-fluid">
-                    <div class="row brand-active">
-                    <div class="col-xl-2">
-                            <div class="single-brand">
+                <div className="container-fluid">
+                    <div className="row brand-active">
+                    <div className="col-xl-2">
+                            <div className="single-brand">
                                  <img src={BrandImg1} alt="img"/>
                             </div>
                         </div>
-                       <div class="col-xl-2">
-                            <div class="single-brand">
+                       <div className="col-xl-2">
+                            <div className="single-brand">
                                      <img src={BrandImg2} alt="img"/>
                             </div>
                         </div>
-                        <div class="col-xl-2">
-                            <div class="single-brand">
+                        <div className="col-xl-2">
+                            <div className="single-brand">
                                   <img src={BrandImg3} alt="img"/>
                             </div>
                         </div>
-                        <div class="col-xl-2">
-                            <div class="single-brand">
+                        <div className="col-xl-2">
+                            <div className="single-brand">
                                   <img src={BrandImg4} alt="img"/>
                             </div>
                         </div>
-                         <div class="col-xl-2">
-                            <div class="single-brand">
+                         <div className="col-xl-2">
+                            <div className="single-brand">
                                  <img src={BrandImg5} alt="img"/>
                             </div>
                         </div>
-                        <div class="col-xl-2">
-                            <div class="single-brand">
+                        <div className="col-xl-2">
+                            <div className="single-brand">
                                  <img src={BrandImg6} alt="img"/>
                             </div>
                         </div>
-                        <div class="col-xl-2">
-                            <div class="single-brand">
+                        <div className="col-xl-2">
+                            <div className="single-brand">
                                   <img src={BrandImg3} alt="img"/>
                             </div>
                         </div>

@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 
 import SliderMain from './img/slider/main.png';
+import SliderMainBg from './img/slider/slider_img_bg.png';
 import SliderImg1 from './img/bg/slider_shape01.png';
 import SliderImg2 from './img/bg/slider_shape02.png';
 import SliderImg3 from './img/bg/slider_shape03.png';
+
 
 class SliderArea extends Component {
     render() {
@@ -14,7 +16,7 @@ class SliderArea extends Component {
                 <div className="slider-shape ss-three layer" data-depth="0.40"><img src={SliderImg3} alt="shape"/></div>
 
                 <div className="slider-active">
-				    <div className="single-slider slider-bg d-flex align-items-center">
+				    <div className="single-slider slider-bg d-flex align-items-center" style={{backgroundImage: `url(${SliderMainBg})` }}>
                     <div className="img-main" data-animation="fadeInLeft" data-delay=".2s"> <img src={SliderMain} alt="slider-overlay"/></div>
                         <div className="container">
                            <div className="row justify-content-center align-items-center">
@@ -22,7 +24,7 @@ class SliderArea extends Component {
                                     <div className="slider-content s-slider-content pt-100">
                                         <h5 data-animation="fadeInUp" data-delay=".4s">Welcome To Childcare Service</h5>
                                          <h2 data-animation="fadeInUp" data-delay=".4s">Get Lifecare For Your kids</h2>
-                                        <p data-animation="fadeInUp" data-delay=".6s">Quisque eget tortor posuere, aliquet arcu ut, molestie nunc. Integer malesuada laoreet erat, ut hendrerit magna finibus ut.</p>
+                                        <p data-animation="fadeInUp" data-delay=".6s">Quisque eget tortor posuere, aliquet arcu ut, molesti.<br/> Integer malesuada laoreet erat, ut hendrerit magna finibus.</p>
                                         
                                          <div className="slider-btn mt-30">                                          
                                             <a href="about.html" className="btn mr-15" data-animation="fadeInUp" data-delay=".4s">Explore More</a>                                             
