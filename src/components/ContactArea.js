@@ -49,7 +49,7 @@ class ContactArea extends Component {
                                                 <textarea name="message" id="message" cols="30" rows="10" placeholder="Write comments"></textarea>
                                             </div>
                                             <div className="slider-btn">                                          
-                                                <button className="btn ss-btn active" data-animation="fadeInRight" data-delay=".8s">Submint Now</button>				
+                                                <button className="btn ss-btn active" data-animation="fadeInRight" data-delay=".8s">Submit Now</button>				
                                             </div>                             
                                         </div>
                                     </div>
