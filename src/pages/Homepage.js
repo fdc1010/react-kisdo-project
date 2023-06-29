@@ -7,6 +7,9 @@ import CounterArea from '../components/CounterArea';
 import ClassArea from '../components/ClassArea';
 import StepsArea from '../components/StepsArea';
 import TeamArea from '../components/TeamArea';
+import TestimonialArea from '../components/TestimonialArea';
+import BlogArea from '../components/BlogArea';
+import ContactArea from '../components/ContactArea';
 
 class Homepage extends Component {
     render() {
@@ -20,6 +23,9 @@ class Homepage extends Component {
                <ClassArea/>
                <StepsArea/>
                <TeamArea/>
+               <TestimonialArea/>
+               <BlogArea/>
+               <ContactArea/>
             </>
         );
     }

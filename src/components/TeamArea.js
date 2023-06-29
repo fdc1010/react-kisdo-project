@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import TemAni1 from './img/bg/slider_shape01.png';
 import TemAni2 from './img/bg/an-img-01.png';
-
 import TeamImg1 from './img/team/team01.png';
 import TeamImg2 from './img/team/team02.png';
 import TeamImg3 from './img/team/team03.png';
@@ -13,8 +12,8 @@ class TeamArea extends Component {
     render() {
         return (
             <div className="team-area2 fix p-relative pt-120 pb-90">
-                <div class="animations-01"><img src={TemAni1} alt="an-img-01"/></div>
-                <div class="animations-02"><img src={TemAni2} alt="contact-bg-an-01"/></div>
+                <div className="animations-01"><img src={TemAni1} alt="an-img-01"/></div>
+                <div className="animations-02"><img src={TemAni2} alt="contact-bg-an-01"/></div>
                 
                 <div className="container">  
                     <div className="row"> 

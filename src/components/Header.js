@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Link } from "react-router-dom";
+
 import MainLogo from './img/logo/logo.png';
 import Navbar from './Navbar';
 
@@ -12,7 +14,7 @@ class Header extends Component {
                             <div className="row align-items-center">
                                 <div className="col-xl-2 col-lg-2">
                                     <div className="logo">
-                                        <a href="index.html"><img src={MainLogo} alt="logo"/></a>
+                                        <Link to="/"><img src={MainLogo} alt="logo"/></Link>
                                     </div>
                                 </div>
                                 <Navbar/>

@@ -60,9 +60,9 @@ class Footer extends Component {
                                     </li>
                                    <li><i className="icon fal fa-envelope"></i>
                                         <span>
-                                            <a href="mailto:info@example.com">info@example.com</a>
+                                          <Link to="/contactus">info@example.com</Link>
                                        <br/>
-                                       <a href="mailto:help@example.com">help@example.com</a>
+                                       <Link to="/contactus">help@example.com</Link>
                                        </span>
                                     </li>
                                 </ul>
@@ -82,7 +82,6 @@ class Footer extends Component {
                                           <input className="form-control" id="email2" name="email" type="email" placeholder="Email Address..." value="" required=""/> 
                                           <button type="submit"  id="send2"><i className="far fa-chevron-right"></i></button>
                                        </div>
-                                       
                                     </form>
                                  </div>
                                 </div>
