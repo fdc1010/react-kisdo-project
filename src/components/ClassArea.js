@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Link } from "react-router-dom";
+
 import ClsAnim1 from './img/bg/an-img-06.png';
 import ClsAnim2 from './img/bg/an-img-07.png';
 import ClsAnim3 from './img/bg/an-img-08.png';
@@ -15,10 +17,10 @@ class ClassArea extends Component {
     render() {
         return (
             <div className="class-area pt-120 pb-120 p-relative">
-                <div class="animations-06"><img src={ClsAnim1} alt="an-img-01"/></div>
-                <div class="animations-07"><img src={ClsAnim2} alt="contact-bg-an-01"/></div>
-                <div class="animations-08"><img src={ClsAnim3} alt="contact-bg-an-01"/></div>
-                <div class="animations-09"><img src={ClsAnim4} alt="contact-bg-an-01"/></div>
+                <div className="animations-06"><img src={ClsAnim1} alt="an-img-01"/></div>
+                <div className="animations-07"><img src={ClsAnim2} alt="contact-bg-an-01"/></div>
+                <div className="animations-08"><img src={ClsAnim3} alt="contact-bg-an-01"/></div>
+                <div className="animations-09"><img src={ClsAnim4} alt="contact-bg-an-01"/></div>
 
                 <div className="container">
                     <div className="row">
@@ -28,163 +30,163 @@ class ClassArea extends Component {
                                 <h2>Get The Best Classes With Us</h2>
                             </div>
                         </div>
-                        <div class="row justify-content-center">
-                        <div class="col-xl-4 col-lg-4 col-md-6">
-                            <div class="class-item mb-30">
-                                <div class="class-img">
-                                    <div class="class-img-outer">
+                        <div className="row justify-content-center">
+                        <div className="col-xl-4 col-lg-4 col-md-6">
+                            <div className="class-item mb-30">
+                                <div className="class-img">
+                                    <div className="class-img-outer">
                                         <img src={ClassImg1} alt=""/>
                                     </div>                                    
                                 </div>
-                                <div class="class-content">
-                                    <h4 class="title"><a href="class-single.html">Languge Class</a></h4>
+                                <div className="class-content">
+                                    <h4 className="title"><Link to="/languageclass">Language Class</Link></h4>
                                     <p>Curabitur dignissim at leo sit amet facilisis. Etiam molestie volutpat turpis.</p>
-                                     <ul class="schedule">
+                                     <ul className="schedule">
                                     <li>
                                         <span>Age:</span>
-                                        <span class="class-size">5-10 Years</span>
+                                        <span className="class-size">5-10 Years</span>
                                     </li>
                                     <li>
                                         <span>Time:</span>
-                                        <span class="class-size class-size-2">8-10am</span>
+                                        <span className="class-size class-size-2">8-10am</span>
                                     </li>
                                     <li>
-                                        <span class="class-price">$50</span>
+                                        <span className="class-price">$50</span>
                                     </li>
                                 </ul>
                                 </div>
                                
                             </div>
                         </div>
-                        <div class="col-xl-4 col-lg-4 col-md-6">
-                            <div class="class-item mb-30">
-                                <div class="class-img">
-                                    <div class="class-img-outer">
+                        <div className="col-xl-4 col-lg-4 col-md-6">
+                            <div className="class-item mb-30">
+                                <div className="class-img">
+                                    <div className="class-img-outer">
                                         <img src={ClassImg2} alt=""/>
                                     </div>                                    
                                 </div>
-                                <div class="class-content">
-                                    <h4 class="title"><a href="class-single.html">Drawing Class</a></h4>
+                                <div className="class-content">
+                                    <h4 className="title"><Link to="/drawingclass">Drawing Class</Link></h4>
                                     <p>Curabitur dignissim at leo sit amet facilisis. Etiam molestie volutpat turpis.</p>
-                                     <ul class="schedule">
+                                     <ul className="schedule">
                                     <li>
                                         <span>Age:</span>
-                                        <span class="class-size">5-10 Years</span>
+                                        <span className="class-size">5-10 Years</span>
                                     </li>
                                     <li>
                                         <span>Time:</span>
-                                        <span class="class-size class-size-2">8-10am</span>
+                                        <span className="class-size class-size-2">8-10am</span>
                                     </li>
                                     <li>
-                                        <span class="class-price">$50</span>
+                                        <span className="class-price">$50</span>
                                     </li>
                                 </ul>
                                 </div>
                                
                             </div>
                         </div>
-                        <div class="col-xl-4 col-lg-4 col-md-6">
-                            <div class="class-item mb-30">
-                                <div class="class-img">
-                                    <div class="class-img-outer">
+                        <div className="col-xl-4 col-lg-4 col-md-6">
+                            <div className="class-item mb-30">
+                                <div className="class-img">
+                                    <div className="class-img-outer">
                                         <img src={ClassImg3} alt=""/>
                                     </div>                                    
                                 </div>
-                                <div class="class-content">
-                                    <h4 class="title"><a href="class-single.html">Mathematics Class</a></h4>
+                                <div className="class-content">
+                                    <h4 className="title"><Link to="/mathematicsclass">Mathematics Class</Link></h4>
                                     <p>Curabitur dignissim at leo sit amet facilisis. Etiam molestie volutpat turpis.</p>
-                                     <ul class="schedule">
+                                     <ul className="schedule">
                                     <li>
                                         <span>Age:</span>
-                                        <span class="class-size">5-10 Years</span>
+                                        <span className="class-size">5-10 Years</span>
                                     </li>
                                     <li>
                                         <span>Time:</span>
-                                        <span class="class-size class-size-2">8-10am</span>
+                                        <span className="class-size class-size-2">8-10am</span>
                                     </li>
                                     <li>
-                                        <span class="class-price">$50</span>
+                                        <span className="class-price">$50</span>
                                     </li>
                                 </ul>
                                 </div>
                                
                             </div>
                         </div>
-                        <div class="col-xl-4 col-lg-4 col-md-6">
-                            <div class="class-item mb-30">
-                                <div class="class-img">
-                                    <div class="class-img-outer">
+                        <div className="col-xl-4 col-lg-4 col-md-6">
+                            <div className="class-item mb-30">
+                                <div className="class-img">
+                                    <div className="class-img-outer">
                                         <img src={ClassImg4} alt=""/>
                                     </div>                                    
                                 </div>
-                                <div class="class-content">
-                                    <h4 class="title"><a href="class-single.html">Sports Class</a></h4>
+                                <div className="class-content">
+                                    <h4 className="title"><Link to="/sportsclass">Sports Class</Link></h4>
                                     <p>Curabitur dignissim at leo sit amet facilisis. Etiam molestie volutpat turpis.</p>
-                                     <ul class="schedule">
+                                     <ul className="schedule">
                                     <li>
                                         <span>Age:</span>
-                                        <span class="class-size">5-10 Years</span>
+                                        <span className="class-size">5-10 Years</span>
                                     </li>
                                     <li>
                                         <span>Time:</span>
-                                        <span class="class-size class-size-2">8-10am</span>
+                                        <span className="class-size class-size-2">8-10am</span>
                                     </li>
                                     <li>
-                                        <span class="class-price">$50</span>
+                                        <span className="class-price">$50</span>
                                     </li>
                                 </ul>
                                 </div>
                                
                             </div>
                         </div>
-                        <div class="col-xl-4 col-lg-4 col-md-6">
-                            <div class="class-item mb-30">
-                                <div class="class-img">
-                                    <div class="class-img-outer">
+                        <div className="col-xl-4 col-lg-4 col-md-6">
+                            <div className="class-item mb-30">
+                                <div className="class-img">
+                                    <div className="class-img-outer">
                                         <img src={ClassImg5} alt=""/>
                                     </div>                                    
                                 </div>
-                                <div class="class-content">
-                                    <h4 class="title"><a href="class-single.html">Knowlage Class</a></h4>
+                                <div className="class-content">
+                                    <h4 className="title"><Link to="/knowledgeclass">Knowledge Class</Link></h4>
                                     <p>Curabitur dignissim at leo sit amet facilisis. Etiam molestie volutpat turpis.</p>
-                                     <ul class="schedule">
+                                     <ul className="schedule">
                                     <li>
                                         <span>Age:</span>
-                                        <span class="class-size">5-10 Years</span>
+                                        <span className="class-size">5-10 Years</span>
                                     </li>
                                     <li>
                                         <span>Time:</span>
-                                        <span class="class-size class-size-2">8-10am</span>
+                                        <span className="class-size class-size-2">8-10am</span>
                                     </li>
                                     <li>
-                                        <span class="class-price">$50</span>
+                                        <span className="class-price">$50</span>
                                     </li>
                                 </ul>
                                 </div>
                                
                             </div>
                         </div>
-                        <div class="col-xl-4 col-lg-4 col-md-6">
-                            <div class="class-item mb-30">
-                                <div class="class-img">
-                                    <div class="class-img-outer">
+                        <div className="col-xl-4 col-lg-4 col-md-6">
+                            <div className="class-item mb-30">
+                                <div className="class-img">
+                                    <div className="class-img-outer">
                                         <img src={ClassImg6} alt="" />
                                     </div>                                    
                                 </div>
-                                <div class="class-content">
-                                    <h4 class="title"><a href="class-single.html">Science Class</a></h4>
+                                <div className="class-content">
+                                    <h4 className="title"><Link to="/scienceclass">Science Class</Link></h4>
                                     <p>Curabitur dignissim at leo sit amet facilisis. Etiam molestie volutpat turpis.</p>
-                                     <ul class="schedule">
+                                     <ul className="schedule">
                                     <li>
                                         <span>Age:</span>
-                                        <span class="class-size">5-10 Years</span>
+                                        <span className="class-size">5-10 Years</span>
                                     </li>
                                     <li>
                                         <span>Time:</span>
-                                        <span class="class-size class-size-2">8-10am</span>
+                                        <span className="class-size class-size-2">8-10am</span>
                                     </li>
                                     <li>
-                                        <span class="class-price">$50</span>
+                                        <span className="class-price">$50</span>
                                     </li>
                                 </ul>
                                 </div>
