@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from "react-router-dom";
 import Services1 from './img/bg/an-img-01.png';
 import Services2 from './img/bg/an-img-02.png';
 
@@ -36,7 +37,7 @@ class ServicesArea extends Component {
                                     <div className="second-services-content">
                                         <h5>Daycare Service</h5>
                                         <p>Get Your Best Care eu lacinia magna. Nullam vehicula accumsan neque, eget congue tellus cursus quis.</p>
-                                        <a href="services-detail.html">Read More</a>
+                                        <Link to="/services">Read More</Link>
                                     </div>
                                 </div>
                             </div>
@@ -51,7 +52,7 @@ class ServicesArea extends Component {
                                     <div className="second-services-content">
                                         <h5>Summer Camp</h5>
                                         <p>Get Your Best Care eu lacinia magna. Nullam vehicula accumsan neque, eget congue tellus cursus quis.</p>
-                                        <a href="services-detail.html">Read More</a>
+                                        <Link to="/services">Read More</Link>
                                     </div>
                                 </div>
                             </div>
@@ -66,7 +67,7 @@ class ServicesArea extends Component {
                                     <div className="second-services-content">
                                         <h5>Online Classes</h5>
                                         <p>Get Your Best Care eu lacinia magna. Nullam vehicula accumsan neque, eget congue tellus cursus quis.</p>
-                                        <a href="services-detail.html">Read More</a>
+                                        <Link to="/services">Read More</Link>
                                     </div>
                                 </div>
                             </div>

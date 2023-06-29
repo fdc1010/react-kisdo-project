@@ -27,7 +27,7 @@ class ContactArea extends Component {
                                     <h5>Contact Us</h5>
                                     <h2>Join Our Best Fun Classes</h2>
                                 </div>
-                                <form action="mail.php" method="post" class="contact-form mt-35">
+                                <form action="" method="post" class="contact-form mt-35">
                                     <div className="row">
                                         <div className="col-lg-12">
                                             <div className="contact-field p-relative c-name mb-30">                                    

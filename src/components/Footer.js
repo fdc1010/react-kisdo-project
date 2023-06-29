@@ -52,7 +52,7 @@ class Footer extends Component {
                                     <ul>
                                     <li>
                                         <i className="icon fal fa-map-marker-check"></i>
-                                        <span>1247/Plot No. 39, 15th Phase, <br/>Colony, Hyderabad</span>
+                                        <span>30 Gatliff Rd, London SW1W 8QN United Kingdom</span>
                                     </li>
                                     <li>
                                         <i className="icon fal fa-phone"></i>
