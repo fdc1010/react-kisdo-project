@@ -16,9 +16,6 @@ import SportsClass from './pages/SportsClass';
 import KnowledgeClass from './pages/KnowledgeClass';
 import ScienceClass from './pages/ScienceClass';
 
-import "core-js/es/set";
-import "core-js/es/weak-map";
-
 function App() {
   return (
     <div className="App">
