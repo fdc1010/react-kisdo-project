@@ -49,31 +49,31 @@ class ScienceClass extends Component {
                                 <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                                 <ul className="pr-ul">
                                     <li>
-                                        <div className="icon"><i class="fal fa-check"></i></div>
+                                        <div className="icon"><i className="fal fa-check"></i></div>
                                         <div className="text">
                                            Crawl accessibility so engines can read your website
                                         </div>
                                     </li>
                                     <li>
-                                        <div className="icon"><i class="fal fa-check"></i></div>
+                                        <div className="icon"><i className="fal fa-check"></i></div>
                                         <div className="text">
                                             Share-worthy content that earns links, citations
                                         </div>
                                     </li>
                                      <li>
-                                        <div className="icon"><i class="fal fa-check"></i></div>
+                                        <div className="icon"><i className="fal fa-check"></i></div>
                                         <div className="text">
                                           Keyword optimized to attract searchers & engines
                                         </div>
                                     </li>
                                      <li>
-                                        <div className="icon"><i class="fal fa-check"></i></div>
+                                        <div className="icon"><i className="fal fa-check"></i></div>
                                         <div className="text">
                                            Title, URL, & description to draw high CTR in the rankings
                                         </div>
                                     </li>
                                     <li>
-                                        <div className="icon"><i class="fal fa-check"></i></div>
+                                        <div className="icon"><i className="fal fa-check"></i></div>
                                         <div className="text">
                                            Great user experience including a fast load speed
                                         </div>

@@ -49,31 +49,31 @@ class DrawingClass extends Component {
                                 <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                                 <ul className="pr-ul">
                                     <li>
-                                        <div className="icon"><i class="fal fa-check"></i></div>
+                                        <div className="icon"><i className="fal fa-check"></i></div>
                                         <div className="text">
                                            Crawl accessibility so engines can read your website
                                         </div>
                                     </li>
                                     <li>
-                                        <div className="icon"><i class="fal fa-check"></i></div>
+                                        <div className="icon"><i className="fal fa-check"></i></div>
                                         <div className="text">
                                             Share-worthy content that earns links, citations
                                         </div>
                                     </li>
                                      <li>
-                                        <div className="icon"><i class="fal fa-check"></i></div>
+                                        <div className="icon"><i className="fal fa-check"></i></div>
                                         <div className="text">
                                           Keyword optimized to attract searchers & engines
                                         </div>
                                     </li>
                                      <li>
-                                        <div className="icon"><i class="fal fa-check"></i></div>
+                                        <div className="icon"><i className="fal fa-check"></i></div>
                                         <div className="text">
                                            Title, URL, & description to draw high CTR in the rankings
                                         </div>
                                     </li>
                                     <li>
-                                        <div className="icon"><i class="fal fa-check"></i></div>
+                                        <div className="icon"><i className="fal fa-check"></i></div>
                                         <div className="text">
                                            Great user experience including a fast load speed
                                         </div>
@@ -88,12 +88,12 @@ class DrawingClass extends Component {
                                     <div className="course-widget-price">
                                         <h2 className="widget-title">Course Features</h2>
                                             <ul>
-                                                <li><i className="fal fa-clock"></i><span>Starts</span><span class="time">May 29, 2016</span></li>
-                                                <li><i className="fal fa-exclamation-circle"></i><span>Duration</span><span class="time">2 Months</span></li>
-                                                <li><i className="fab fa-leanpub"></i><span>Class Duration</span><span class="time">7:00 - 9:00</span></li>
-                                                <li><i className="fal fa-user-graduate"></i><span>Institution</span><span class="time">ABC University</span></li>
-                                                <li><i className="fal fa-plus-hexagon"></i><span>Seats Available</span><span class="time">23 Student</span></li>
-                                                <li><i className="fal fa-user"></i><span>Level</span><span class="time">All level</span></li>
+                                                <li><i className="fal fa-clock"></i><span>Starts</span><span className="time">May 29, 2016</span></li>
+                                                <li><i className="fal fa-exclamation-circle"></i><span>Duration</span><span className="time">2 Months</span></li>
+                                                <li><i className="fab fa-leanpub"></i><span>Class Duration</span><span className="time">7:00 - 9:00</span></li>
+                                                <li><i className="fal fa-user-graduate"></i><span>Institution</span><span className="time">ABC University</span></li>
+                                                <li><i className="fal fa-plus-hexagon"></i><span>Seats Available</span><span className="time">23 Student</span></li>
+                                                <li><i className="fal fa-user"></i><span>Level</span><span className="time">All level</span></li>
                                             </ul>
                                     </div>
                                 </div>
