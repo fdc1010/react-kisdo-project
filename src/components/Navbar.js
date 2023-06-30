@@ -20,13 +20,13 @@ export default function Navbar() {
         <div className="col-xl-3 col-lg-3 text-right d-none d-lg-block mt-30 mb-30 text-right text-xl-right">
             <div className="login">
                 <ul>
-                    <li><div className="header-btn second-header-btn">
-                        <Link to="/contactus" className="btn">Get Started</Link>
+                    <li>
+                        <div className="header-btn second-header-btn">
+                            <Link to="/contactus" className="btn">Get Started</Link>
                         </div>
                     </li>
                 </ul>                    
-            </div>
-                                
+            </div>                  
         </div>
         <div className="col-12">
             <div className="mobile-menu"></div>

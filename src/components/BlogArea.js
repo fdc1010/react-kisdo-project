@@ -35,14 +35,13 @@ class BlogArea extends Component {
                                      <div className="b-meta">
                                         <div className="row">
                                              <div className="col-lg-12 col-md-12">
-                                             <div className="meta-info">
-                                                <ul>                                                   
-                                                    <li><i className="fal fa-calendar-alt"></i> 24th March 2021</li>
-                                                    <li><i className="fal fa-user"></i> By Jhone Doe</li>
-                                                </ul>
-                                            </div>
+                                                <div className="meta-info">
+                                                    <ul>                                                   
+                                                        <li><i className="fal fa-calendar-alt"></i> 24th March 2021</li>
+                                                        <li><i className="fal fa-user"></i> By Jhone Doe</li>
+                                                    </ul>
+                                                </div>
                                              </div>
-
                                          </div>
                                     </div>
                                 </div>
@@ -59,14 +58,13 @@ class BlogArea extends Component {
                                      <div className="b-meta">
                                         <div className="row">
                                              <div className="col-lg-12 col-md-12">
-                                             <div className="meta-info">
-                                                <ul>                                                   
-                                                    <li><i className="fal fa-calendar-alt"></i> 24th March 2021</li>
-                                                    <li><i className="fal fa-user"></i> By Jhone Doe</li>
-                                                </ul>
-                                            </div>
+                                                <div className="meta-info">
+                                                    <ul>                                                   
+                                                        <li><i className="fal fa-calendar-alt"></i> 24th March 2021</li>
+                                                        <li><i className="fal fa-user"></i> By Jhone Doe</li>
+                                                    </ul>
+                                                </div>
                                              </div>
-
                                          </div>
                                     </div>
                                 </div>
@@ -82,22 +80,20 @@ class BlogArea extends Component {
                                     <p>Curabitur sagittis libero tincidunt tempor finibus. Mauris at dignissim ligula, nec tristique orci.</p>
                                      <div className="b-meta">
                                         <div className="row">
-                                             <div className="col-lg-12 col-md-12">
-                                             <div className="meta-info">
-                                                <ul>                                                   
-                                                    <li><i className="fal fa-calendar-alt"></i> 24th March 2021</li>
-                                                    <li><i className="fal fa-user"></i> By Jhone Doe</li>
-                                                </ul>
+                                            <div className="col-lg-12 col-md-12">
+                                                <div className="meta-info">
+                                                    <ul>                                                   
+                                                        <li><i className="fal fa-calendar-alt"></i> 24th March 2021</li>
+                                                        <li><i className="fal fa-user"></i> By Jhone Doe</li>
+                                                    </ul>
+                                                </div>
                                             </div>
-                                             </div>
-
                                          </div>
                                     </div>
                                 </div>
                             </div>
                         </div>            
                     </div>
-
                 </div>
             </div>
         );

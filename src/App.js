@@ -16,6 +16,7 @@ import SportsClass from './pages/SportsClass';
 import KnowledgeClass from './pages/KnowledgeClass';
 import ScienceClass from './pages/ScienceClass';
 
+
 function App() {
   return (
     <div className="App">
