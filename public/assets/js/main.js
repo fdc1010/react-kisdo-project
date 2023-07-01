@@ -557,10 +557,8 @@ $('.button-group > button').on('click', function(event) {
 	$(this).addClass('active');
 	event.preventDefault();
 });
-
 // WOW active
-new WOW().init();
-    
+new WOW().init()
 //Tabs Box
 	if($('.tabs-box').length){
 		$('.tabs-box .tab-buttons .tab-btn').on('click', function(e) {
@@ -579,5 +577,4 @@ new WOW().init();
 			}
 		});
 	}
-
 })(jQuery);

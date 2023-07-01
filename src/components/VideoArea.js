@@ -17,7 +17,7 @@ class VideoArea extends Component {
                     <div className="row">
                         <div className="col-lg-12 col-md-12">
                            <div className="video-img wow fadeInRight animated" data-animation="fadeInDown animated" data-delay=".2s" style={{backgroundImage: `url(${VideoImg})` }}>								
-                                <a href="https://www.youtube.com/" class="video-i popup-video"><i class="far fa-play"></i></a>
+                                <a href="https://www.youtube.com/" className="video-i popup-video"><i className="far fa-play"></i></a>
                             </div> 
                         </div>
                     </div>

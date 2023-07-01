@@ -88,12 +88,12 @@ class ScienceClass extends Component {
                                     <div className="course-widget-price">
                                         <h2 className="widget-title">Course Features</h2>
                                             <ul>
-                                                <li><i className="fal fa-clock"></i><span>Starts</span><span class="time">May 29, 2016</span></li>
-                                                <li><i className="fal fa-exclamation-circle"></i><span>Duration</span><span class="time">2 Months</span></li>
-                                                <li><i className="fab fa-leanpub"></i><span>Class Duration</span><span class="time">7:00 - 9:00</span></li>
-                                                <li><i className="fal fa-user-graduate"></i><span>Institution</span><span class="time">ABC University</span></li>
-                                                <li><i className="fal fa-plus-hexagon"></i><span>Seats Available</span><span class="time">23 Student</span></li>
-                                                <li><i className="fal fa-user"></i><span>Level</span><span class="time">All level</span></li>
+                                                <li><i className="fal fa-clock"></i><span>Starts</span><span className="time">May 29, 2016</span></li>
+                                                <li><i className="fal fa-exclamation-circle"></i><span>Duration</span><span className="time">2 Months</span></li>
+                                                <li><i className="fab fa-leanpub"></i><span>Class Duration</span><span className="time">7:00 - 9:00</span></li>
+                                                <li><i className="fal fa-user-graduate"></i><span>Institution</span><span className="time">ABC University</span></li>
+                                                <li><i className="fal fa-plus-hexagon"></i><span>Seats Available</span><span className="time">23 Student</span></li>
+                                                <li><i className="fal fa-user"></i><span>Level</span><span className="time">All level</span></li>
                                             </ul>
                                     </div>
                                 </div>

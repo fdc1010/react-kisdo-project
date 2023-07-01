@@ -27,21 +27,21 @@ class ContactArea extends Component {
                                     <h5>Contact Us</h5>
                                     <h2>Join Our Best Fun Classes</h2>
                                 </div>
-                                <form action="" method="post" class="contact-form mt-35">
+                                <form action="" method="post" className="contact-form mt-35">
                                     <div className="row">
                                         <div className="col-lg-12">
                                             <div className="contact-field p-relative c-name mb-30">                                    
-                                                <input type="text" id="firstn" name="firstn" placeholder="Full Name" required/>
+                                                <input type="text" id="firstn" name="firstn" placeholder="Full Name" defaultValue="" required/>
                                             </div>                               
                                         </div>
                                         <div className="col-lg-12">                               
                                             <div className="contact-field p-relative c-subject mb-30">                                   
-                                                <input type="text" id="email" name="email" placeholder="Eamil Address" required/>
+                                                <input type="text" id="email" name="email" placeholder="Eamil Address" defaultValue="" required/>
                                             </div>
                                         </div>		
                                         <div className="col-lg-12">                               
                                             <div className="contact-field p-relative c-subject mb-30">                                   
-                                                <input type="text" id="phone" name="phone" placeholder="Phone No." required/>
+                                                <input type="text" id="phone" name="phone" placeholder="Phone No." defaultValue="" required/>
                                             </div>
                                         </div>	
                                         <div className="col-lg-12">

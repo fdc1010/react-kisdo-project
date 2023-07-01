@@ -20,8 +20,8 @@ class TeamAreaNew extends Component {
                                     </div>
                                     
                                     <div className="dropdown">
-                                       <a class="xbtn"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                       <i class="far fa-share-alt"></i>
+                                       <a className="xbtn"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                       <i className="far fa-share-alt"></i>
                                        </a>
                                       <div className="dropdown-menu" aria-labelledby="dropdownMenu2">
                                         <div className="team-social mt-15">
@@ -47,8 +47,8 @@ class TeamAreaNew extends Component {
                                          <img src={TeamImg2} alt="img"/>
                                     </div>
                                     <div className="dropdown">
-                                       <a class="xbtn"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                       <i class="far fa-share-alt"></i>
+                                       <a className="xbtn"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                       <i className="far fa-share-alt"></i>
                                        </a>
                                       <div className="dropdown-menu" aria-labelledby="dropdownMenu2">
                                         <div className="team-social mt-15">
@@ -74,8 +74,8 @@ class TeamAreaNew extends Component {
                                          <img src={TeamImg3} alt="img"/>
                                     </div>
                                     <div className="dropdown">
-                                       <a class="xbtn"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                       <i class="far fa-share-alt"></i>
+                                       <a className="xbtn"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                       <i className="far fa-share-alt"></i>
                                        </a>
                                       <div className="dropdown-menu" aria-labelledby="dropdownMenu2">
                                         <div className="team-social mt-15">
@@ -102,8 +102,8 @@ class TeamAreaNew extends Component {
                                     </div>
                                     
                                     <div className="dropdown">
-                                       <a class="xbtn"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                       <i class="far fa-share-alt"></i>
+                                       <a className="xbtn"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                       <i className="far fa-share-alt"></i>
                                        </a>
                                       <div className="dropdown-menu" aria-labelledby="dropdownMenu2">
                                         <div className="team-social mt-15">

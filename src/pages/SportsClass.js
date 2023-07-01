@@ -61,7 +61,7 @@ class SportsClass extends Component {
                                         </div>
                                     </li>
                                      <li>
-                                        <div className="icon"><i class="fal fa-check"></i></div>
+                                        <div className="icon"><i className="fal fa-check"></i></div>
                                         <div className="text">
                                           Keyword optimized to attract searchers & engines
                                         </div>
