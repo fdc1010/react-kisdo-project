@@ -86,7 +86,7 @@
 
   })();
 
-  WeakMap = WeakMap || (WeakMap = (function() {
+  WeakMap = (function() {
     function WeakMap() {
       this.keys = [];
       this.values = [];
@@ -119,7 +119,7 @@
 
     return WeakMap;
 
-  })());
+  })();
 
   MutationObserver = (function() {
     function MutationObserver() {
@@ -157,7 +157,7 @@
 
   getComputedStyleRX = /(\-([a-z]){1})/g;
 
-  window.WOW = (function(WOW) {
+  window.WOW = (function() {
     WOW.prototype.defaults = {
       boxClass: 'wow',
       animateClass: 'animated',
